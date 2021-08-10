@@ -28,6 +28,9 @@ const getAlbums = (query)=>{
 });
 
 }
+function showNumverOfAlbums (){
+    alert (`The number of albums are ${albums.length}`)
+}
 
 function displayAlbum (albums) {
     const row = document.querySelector('.recently-played')
