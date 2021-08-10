@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: rgb(51, 43, 43);
+    color: white;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    
+    
+    }
+.wrapper .sidenav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 100vh;
+	background-color: black;
+
+
+}
+.wrapper .sidenav img{
+	text-align: center;
+}
+.wrapper .sidenav ul li{
+	list-style: none;
+	padding: 5px
+}
+.privacy{
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 12px;
+
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 200px;
+    z-index: 999;
+    background-color: (44, 35, 35)!important
+}
+.dropdown-menu {
+    background-color: rgb(44, 35, 35)!important;
+    
+
+}
+.dropdown-item{
+    color: white;
+}
+.wrapper .main-content{
+	
+	height: 100vh;
+	margin-left: 200px;
+
+}
+
+.arrow{
+   color: white !important;
+   background-color: black;
+   border-color: black;
+   border-radius: 50%;
+   padding: 3px;
+
+}
+.btn{
+    background-color: black;
+    border-color: black;
+    color: white;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+.btn:hover{
+    background-color: black;
+    
+    border-radius: 50px;
+    color: white;
+}
+
+.top-container{
+    margin-top: 100px;
+}
+.card-img{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+    
+}
+.card{
+    background-color: rgb(41, 29, 29);
+    color: white;
+}
+p{
+   margin-top: 18px;
+
+}
+.podocasts{
+    margin-top: 0px;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .player {
+      left: 180px;
+      max-width: calc(100vw - 220px);
+    }
+  }
+  .bg-container {
+     
+    height: 5.5rem;
+    background-color: #282828;
+  }
+  
+  .playerControls {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+  
+  .playerControls a img {
+    width: 14px;
+    max-height: 16px;
+    margin-right: 0.5rem;
+    filter: brightness(60%);
+  }
+  
+  .playerControls a:hover {
+    filter: brightness(80%);
+    color: #282828 !important;
+  }
+  
+  .progressContainer {
+    color: white;
+  }
+  
+  .progressContainer span {
+    opacity: 0.5;
+  }
+  
+  .progress {
+    color: white;
+    background-color: #414141;
+    height: 6px;
+    margin: 0 1rem;
+  }
+  .playerArtistInfo > div {
+    overflow: hidden;
+  }
+  .playBar p,
+  .playBar h6 {
+    color: white;
+    margin: 0;
+  }
+  
+  .playBar h6 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .playBar p {
+    font-size: 0.85rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .playerVolume {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+  }
+  .playerVolume .fa {
+    opacity: 0.5;
+    color: white;
+    margin-right: 0.5rem;
+  }
+  .playerVolume input {
+    -webkit-appearance: none;
+    outline: none;
+    background: transparent;
+  }
+  .playerVolume input::-webkit-slider-runnable-track {
+    background-color: #414141;
+    height: 6px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .playerVolume input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0px;
+    box-shadow: -200px 0 0 200px #007bff;
+  }

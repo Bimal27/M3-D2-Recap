@@ -1,0 +1,143 @@
+/* Login Page */
+
+/* Header Image */
+header img {
+  width: 13%;
+  height: 23%;
+}
+
+/* Social Buttons Heading */
+#socialMediaOptions h5 strong {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+/* All social buttons */
+#socialMediaOptions button {
+  width: 100%;
+  padding: 14px 14px 14px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* facebook button */
+#socialMediaOptions .facebook {
+  font-family: Helvetica, sans-serif;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+/* facebook button hover */
+#socialMediaOptions .facebook:hover {
+  background-color: #4c659c;
+}
+
+/* apple button */
+#socialMediaOptions .apple {
+  font-family: Helvetica, sans-serif;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+/* apple button hover */
+#socialMediaOptions .apple:hover {
+  background-color: #272525;
+}
+
+/* google button */
+#socialMediaOptions .google {
+  font-family: Helvetica, sans-serif;
+  background-color: transparent;
+  color: #616467;
+  border: 2px solid #616467;
+}
+
+/* google logo */
+#socialMediaOptions .google > img {
+  width: 20px;
+  height: 20px;
+}
+
+/* google button hover */
+#socialMediaOptions .google:hover {
+  background-color: #616467;
+  color: white;
+}
+
+/* OR in hr */
+#socialMediaOptions .or {
+  background: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  bottom: 7px;
+  left: 45%;
+}
+
+#tick {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: white;
+  z-index: 5;
+}
+
+#exampleCheck {
+  height: 25px;
+  width: 25px;
+  appearance: none;
+  border: 1px solid #34495e;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+#tick:hover {
+  cursor: pointer;
+}
+.form-check-label:hover {
+  cursor: pointer;
+}
+
+#exampleCheck:checked {
+  border: 1px solid #41b883;
+  background-color: rgb(26, 176, 24);
+}
+
+.btn-primary {
+  background-color: #15883e;
+  border-color: rgb(26, 176, 24);
+}
+
+.btn-primary:hover {
+  background-color: rgb(26, 176, 24);
+  border-color: rgb(26, 176, 24);
+}
+
+#loginButton {
+  letter-spacing: 1px;
+  margin: 5px 0px;
+  padding: 12px 70px 4px;
+  font-weight: 600;
+}
+
+.spotifybutton {
+  border: 2px solid;
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  color: #616467;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+
+.spotifybutton:hover {
+  background-color: #616467;
+  color: white;
+}
+
+footer a {
+  color: rgb(26, 176, 24);
+}
